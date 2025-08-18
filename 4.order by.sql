@@ -63,5 +63,7 @@ SELECT
 		category_name,
 		ref_category_code
 	FROM tbl_category
-	ORDER BY ref_category_code;
-	
+-- 	ORDER BY ref_category_code asc;
+-- 	ORDER BY ref_category_code desc;
+-- 	ORDER BY -ref_category_code asc;
+	ORDER BY -ref_category_code desc;
