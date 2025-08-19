@@ -56,6 +56,8 @@ SELECT
 	ORDER BY FIELD(orderable_status , 'N','Y');
 	
 	
+
+	
 -- null 값을 포함한 정렬
 -- 오름차순 시 null값이 처음으로 정렬 (default)
 SELECT
@@ -63,6 +65,7 @@ SELECT
 		category_name,
 		ref_category_code
 	FROM tbl_category
+-- 	ORDER BY ref_category_code;
 -- 	ORDER BY ref_category_code asc;
 -- 	ORDER BY ref_category_code desc;
 -- 	ORDER BY -ref_category_code asc;
